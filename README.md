@@ -1,4 +1,4 @@
 # Install-Client
 
-Installer client for new UNIX machines. 
+Installer client for setting up new UNIX machines. 
 
