@@ -2,6 +2,7 @@
 
 sudo apt install \
      aptitude \
+     zsh \
      snap
      arandr \
      build-essential \
@@ -28,6 +29,10 @@ sudo apt install \
      maildir-utils \
      make \
      cmake \
+     cmatrix \
+     clang \
+     cpp \
+     coq \
      mlocate \
      mpv \
      msmtp \
@@ -48,6 +53,8 @@ sudo apt install \
      python3 \
      python3-gpg \
      python3-pip \
+     pip \
+     nodejs \
      redshift \
      restic \
      ripgrep \
