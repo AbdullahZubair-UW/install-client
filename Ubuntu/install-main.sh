@@ -42,20 +42,27 @@ eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
   printf "\n${BLUE}Cloning Oh My Zsh Plugins...${NORMAL}\n"
   eval "sh zsh-plugins.sh"
 
-# Remove a .zshrc file
-eval "rm -rf .zshrc"
-
 # Get your SSH keys
 printf "\n${BLUE} Getting your SSH keys ... ${NORMAL}\n"
 eval "sh getSSHkeys.sh"
 
-
-
-
-
-
-
-
 #Clone dot files
+printf "\n${BLUE} Cloning your dotfiles ... ${NORMAL}\n"
+eval "sh getdotfiles.sh"
+
+#Activating polybar
+printf "\n${BLUE} Activating polybar... ${NORMAL}\n"
+eval "sh .config/polybar/launch.sh"
+
+#Installing FZF
+printf "\n${BLUE} Installing fzf, commmand-line fuzzy finder... ${NORMAL}\n"
+eval "sh fzf.sh"
+
+#Install neovim by cloning from source
+printf "\n${BLUE} Installing Neovim ... ${NORMAL}\n"
+eval "sh neovim.sh"
+
+
+
 
 

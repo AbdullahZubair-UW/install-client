@@ -10,6 +10,7 @@ sudo apt install \
      fbreader \
      feh \
      fuse \
+     fontconfig\
      gawk \
      git \
      gnumeric \
@@ -54,6 +55,7 @@ sudo apt install \
      python3-gpg \
      python3-pip \
      pip \
+     polybar \
      nodejs \
      redshift \
      restic \
@@ -61,6 +63,7 @@ sudo apt install \
      rlwrap \
      rofi \
      rsync \
+     ranger \
      scrot \
      shellcheck \
      sqlite3 \
@@ -72,6 +75,7 @@ sudo apt install \
      unclutter \
      unifont \
      unrar \
+     unzip \
      urlscan \
      urlview \
      vim \
@@ -82,5 +86,6 @@ sudo apt install \
      xfce4-clipman \
      xsel \
      zathura \
+     w1-clipboard \
      zathura-cb
 
