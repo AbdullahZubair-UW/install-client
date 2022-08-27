@@ -44,6 +44,7 @@ printf "\n${GREEN}================================================== Finished In
 
 #Clone dot files
 printf "\n${BLUE} Cloning your dotfiles ... ${NORMAL}\n"
+eval "rm ~/.zshrc"
 eval "sh ~/install-client/Ubuntu/getdotfiles.sh"
 printf "\n${GREEN}================================================== Finished Cloning dotfiles ==========================================================${NORMAL}\n"
 
