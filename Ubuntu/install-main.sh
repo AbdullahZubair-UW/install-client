@@ -41,6 +41,7 @@ printf "\n${GREEN}================================================== Finished se
 printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
 eval "sh ~/install-client/Ubuntu/ohmyzsh.sh"
 printf "\n${GREEN}================================================== Finished Installing Oh My ZSH ==========================================================${NORMAL}\n"
+eval "sh ~/install-client/Ubuntu/install-main.sh"
 
 #Clone dot files
 printf "\n${BLUE} Cloning your dotfiles ... ${NORMAL}\n"
@@ -48,9 +49,6 @@ eval "rm ~/.zshrc"
 eval "sh ~/install-client/Ubuntu/getdotfiles.sh"
 printf "\n${GREEN}================================================== Finished Cloning dotfiles ==========================================================${NORMAL}\n"
 
-#Activating polybar
-printf "\n${BLUE} Activating polybar... ${NORMAL}\n"
-eval "sh ~/.config/polybar/launch.sh"
 
 #Installing FZF
 printf "\n${BLUE} Installing fzf, commmand-line fuzzy finder... ${NORMAL}\n"
