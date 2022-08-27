@@ -1,10 +1,8 @@
 #!/bin/bash
 
 echo ".cfg" >> .gitignore
-git clone --bare git@github.com:AbdullahZubair-UW/dotfiles.git $HOME/.cfg
-function config {
-   /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
-}
+git clone --bare https://github.com/AbdullahZubair-UW/dotfiles.git $HOME/.cfg
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 mkdir -p .config-backup
 config checkout
 if [ $? = 0 ]; then

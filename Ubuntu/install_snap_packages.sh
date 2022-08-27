@@ -8,8 +8,6 @@ MAGENTA="\033[35m"
 WHITE="\033[37m"
 NORMAL="\033[0;39m"
 
-sudo snap install \
-  emacs --classic \
-  go --classic \
+sudo snap install emacs --classic 
+sudo snap install  go --classic 
 
-printf "\n${BLUE} Finished Installing snap packages ===========================:${NORMAL}\n"
