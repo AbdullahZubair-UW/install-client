@@ -41,7 +41,6 @@ printf "\n${GREEN}================================================== Finished se
 printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
 eval "sh ~/install-client/Ubuntu/ohmyzsh.sh"
 printf "\n${GREEN}================================================== Finished Installing Oh My ZSH ==========================================================${NORMAL}\n"
-eval "sh ~/install-client/Ubuntu/install-main.sh"
 
 #Clone dot files
 printf "\n${BLUE} Cloning your dotfiles ... ${NORMAL}\n"
