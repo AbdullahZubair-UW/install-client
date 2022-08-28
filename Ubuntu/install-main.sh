@@ -59,6 +59,11 @@ printf "\n${BLUE} Installing Neovim ... ${NORMAL}\n"
 eval "sh ~/install-client/Ubuntu/neovim.sh"
 printf "\n${GREEN}================================================== Finished Installing Neovim ==========================================================${NORMAL}\n"
 
+# Copy over my fonts
+printf "\n${BLUE} Configuring your fonts ... ${NORMAL}\n"
+eval "sh ~/install-client/Ubuntu/copyfonts.sh"
+printf "\n${GREEN}================================================== Finished Copying Fonts ==========================================================${NORMAL}\n"
+
 #Install Vundle and Vim plug
 printf "\n${BLUE} Installing Vundle and Vimplug for vim ... ${NORMAL}\n"
 eval "git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim"
