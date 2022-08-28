@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 echo ".cfg" >> .gitignore
-git clone --bare https://github.com/AbdullahZubair-UW/dotfiles.git $HOME/.cfg
+git clone --bare git@github.com:AbdullahZubair-UW/dotfiles.git $HOME/.cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 mkdir -p .config-backup
 config checkout
