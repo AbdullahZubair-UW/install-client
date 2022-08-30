@@ -24,3 +24,4 @@ printf "\n${BLUE} Cloning the required nerd fonts .... :${NORMAL}\n"
 git clone https://github.com/ronniedroid/getnf.git ~/getnf
 cd ~/getnf
 ./install.sh
+rm -rf ~/getnf
