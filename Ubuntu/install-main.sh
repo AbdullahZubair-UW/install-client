@@ -39,6 +39,7 @@ printf "\n${GREEN}================================================== Finished se
 
 # Makes a quick git alias
 eval "git config --global alias.send '!git pull && git add -A && git commit -m \"normal edits\" && git push'"
+eval "git config --global alias.ls '!bash ~/git-status ~/'"
 
 # Install Oh My Zsh
 printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
