@@ -42,7 +42,7 @@ eval "git config --global alias.send '!git pull && git add -A && git commit -m \
 eval "git config --global alias.ls '!bash ~/git-status ~/'"
 
 # Install Oh My Zsh
-printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
+printf "\n${BLUE}Installing my fork of Oh-My-Zsh...${NORMAL}\n"
 eval "sh ~/install-client/Ubuntu/ohmyzsh.sh"
 printf "\n${GREEN}================================================== Finished Installing Oh My ZSH ==========================================================${NORMAL}\n"
 
