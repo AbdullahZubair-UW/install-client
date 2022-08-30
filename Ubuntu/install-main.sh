@@ -52,7 +52,6 @@ eval "rm ~/.zshrc"
 eval "sh ~/install-client/Ubuntu/getdotfiles.sh"
 printf "\n${GREEN}================================================== Finished Cloning dotfiles ==========================================================${NORMAL}\n"
 
-
 #Installing FZF
 printf "\n${BLUE} Installing fzf, commmand-line fuzzy finder... ${NORMAL}\n"
 eval "sh ~/install-client/Ubuntu/fzf.sh"
@@ -75,6 +74,10 @@ eval "curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
 printf "\n${GREEN}================================================== Finished Installing Vundle and VimPlug ==========================================================${NORMAL}\n"
 
+#Install i3clock-color lockscreen
+printf "\n${BLUE} Installing i3clock-color lockscreen by Raymond Li ... ${NORMAL}\n"
+eval "sh ~/install-client/Ubuntu/i3clock-color-install.sh"
+printf "\n${GREEN}================================================== Finished Installing i3clock-color ==========================================================${NORMAL}\n"
 
 
 
