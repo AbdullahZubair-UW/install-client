@@ -37,6 +37,9 @@ read answer
 eval "sh ~/install-client/Ubuntu/SSHkeys.sh"
 printf "\n${GREEN}================================================== Finished setting perms on SSH Keys ===========================================================${NORMAL}\n"
 
+# Makes a quick git alias
+eval "git config --global alias.send '!git pull && git add -A && git commit -m \"normal edits\" && git push'"
+
 # Install Oh My Zsh
 printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
 eval "sh ~/install-client/Ubuntu/ohmyzsh.sh"
