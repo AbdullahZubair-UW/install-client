@@ -15,5 +15,5 @@ python3-pip pip polybar nodejs redshift restic ripgrep rlwrap rofi rsync ranger 
 tree unclutter unifont unrar unzip urlscan urlview vim wget xbindkeys xcape xdotool xfce4-clipman xsel zathura zathura-cb \
   texlive-full libcoq-mathcomp clangd ccls fab lr tmux fd-find lsd fabric fab
 
-sudo apt-get install libtool-bin
+sudo apt-get install libtool-bin qtile
 

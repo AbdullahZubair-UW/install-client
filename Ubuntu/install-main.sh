@@ -74,6 +74,8 @@ eval "curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
 printf "\n${GREEN}================================================== Finished Installing Vundle and VimPlug ==========================================================${NORMAL}\n"
 
+# Install Qtile
+
 #Install i3clock-color lockscreen
 printf "\n${BLUE} Installing i3clock-color lockscreen by Raymond Li ... ${NORMAL}\n"
 eval "sh ~/install-client/Ubuntu/i3clock-color-install.sh"
