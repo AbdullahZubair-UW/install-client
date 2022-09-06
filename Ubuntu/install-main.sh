@@ -74,7 +74,9 @@ eval "curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
 printf "\n${GREEN}================================================== Finished Installing Vundle and VimPlug ==========================================================${NORMAL}\n"
 
-# Install Qtile
+# Enable Qtile in Xsessions
+printf "\n${BLUE} Enabling Qtile to appear at login menu ... ${NORMAL}\n"
+eval "sudo mv ~/.config/qtile/qtile.desktop /usr/share/xsessions/"
 
 #Install i3clock-color lockscreen
 printf "\n${BLUE} Installing i3clock-color lockscreen by Raymond Li ... ${NORMAL}\n"
