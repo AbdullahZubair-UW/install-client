@@ -13,7 +13,7 @@ graphviz htop i3 i3lock imagemagick isync jq libnotify-bin libpq-dev libsqlite3-
 mpv mu4e npm opam openssl pandoc parallel pass pass-extension-otp pasystray pavucontrol picom postgresql pwgen python3 python3-gpg \
 python3-pip pip polybar nodejs redshift restic ripgrep rlwrap rofi rsync ranger scrot shellcheck sqlite3 sqlite3-pcre stow sudo \
 tree unclutter unifont unrar unzip urlscan urlview vim wget xbindkeys xcape xdotool xfce4-clipman xsel zathura zathura-cb \
-  texlive-full libcoq-mathcomp clangd ccls fab lr tmux fd-find lsd fabric fab
+default-jre texlive-full libcoq-mathcomp clangd ccls fab lr tmux fd-find lsd fabric fab
 
 sudo apt-get install libtool-bin qtile
 
